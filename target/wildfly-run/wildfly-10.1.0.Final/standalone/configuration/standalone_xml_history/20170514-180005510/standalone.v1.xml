@@ -417,7 +417,7 @@
 
     <deployments>
         <deployment name="phak.war" runtime-name="phak.war">
-            <content sha1="93a8ce5334ee99638220b34fed69df852a4cec4f"/>
+            <content sha1="87f6775515c7c7df485cc746f8ffaa3e312827a8"/>
         </deployment>
     </deployments>
 </server>

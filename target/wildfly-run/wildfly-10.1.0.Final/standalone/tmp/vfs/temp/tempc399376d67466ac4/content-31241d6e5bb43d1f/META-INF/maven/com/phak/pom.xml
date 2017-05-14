@@ -34,17 +34,13 @@
         <artifactId>wildfly-maven-plugin</artifactId>
        <version>1.2.0.Alpha4</version>
        <configuration>
-                    <jboss-home>/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final</jboss-home>
-                    
-                </configuration>
-       <!-- 
-        <configuration>
-	        <hostname>localhost</hostname>
-	        <username>admin</username>
-	        <password>password</password>
-        	<port>9999</port>
-    	</configuration>
-    	 -->
+       
+       		<!-- 
+             <jboss-home>/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final</jboss-home>
+              -->
+              <jboss-home>${project.basedir}/target/wildfly-run/wildfly-10.1.0.Final</jboss-home>
+        </configuration>
+       
     	
       </plugin>
       

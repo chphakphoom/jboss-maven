@@ -1341,3 +1341,303 @@ WFLYCTL0186:   Services which failed to start:      service jboss.serverManageme
 2017-05-14 17:30:49,790 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /phak
 2017-05-14 17:30:49,846 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "phak.war" with deployment "phak.war"
 2017-05-14 17:30:49,847 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/2b/6f960c5735429b7420ffbe349aee910b39e622/content
+2017-05-14 17:51:17,515 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2017-05-14 17:51:17,518 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2017-05-14 17:51:17,558 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /phak
+2017-05-14 17:51:17,592 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2017-05-14 17:51:17,595 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-05-14 17:51:17,601 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-05-14 17:51:17,625 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment phak.war (runtime-name: phak.war) in 97ms
+2017-05-14 17:51:17,625 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2017-05-14 17:51:17,625 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-05-14 17:51:17,626 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-05-14 17:51:17,626 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-05-14 17:51:17,627 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-05-14 17:51:17,642 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 109ms
+2017-05-14 17:59:21,372 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-05-14 17:59:21,539 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-05-14 17:59:21,611 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-05-14 17:59:21,612 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final
+	jboss.host.name = chainapaporn
+	jboss.modules.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/modules
+	jboss.node.name = chainapaporn
+	jboss.qualified.host.name = chainapaporn
+	jboss.server.base.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = chainapaporn
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.0-49-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone -Djboss.server.log.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log -Djboss.server.config.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/phakphoom/My-workspace/jboss-maven/phak
+	user.home = /home/phakphoom
+	user.language = en
+	user.name = phakphoom
+	user.timezone = Asia/Bangkok
+2017-05-14 17:59:21,613 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Dorg.jboss.boot.log.file=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-05-14 17:59:22,761 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-05-14 17:59:22,781 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.4.0.Final
+2017-05-14 17:59:22,788 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.4.0.Final
+2017-05-14 17:59:22,836 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-05-14 17:59:22,844 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-05-14 17:59:22,856 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-05-14 17:59:22,910 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-05-14 17:59:22,933 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-05-14 17:59:22,940 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-05-14 17:59:22,941 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-05-14 17:59:22,979 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-05-14 17:59:22,953 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.21.Final
+2017-05-14 17:59:23,132 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2017-05-14 17:59:23,134 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-05-14 17:59:23,161 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-05-14 17:59:23,196 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-05-14 17:59:23,209 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-05-14 17:59:23,217 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-05-14 17:59:23,358 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-05-14 17:59:23,384 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2017-05-14 17:59:23,387 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2017-05-14 17:59:23,446 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-05-14 17:59:23,446 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-05-14 17:59:23,537 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-05-14 17:59:23,659 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-05-14 17:59:23,827 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-05-14 17:59:23,869 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/deployments
+2017-05-14 17:59:23,881 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "phak.war" (runtime-name: "phak.war")
+2017-05-14 17:59:24,001 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-05-14 17:59:24,106 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 17:59:24,106 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 17:59:24,108 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 17:59:24,108 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 17:59:24,116 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 17:59:24,117 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 17:59:24,184 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-05-14 17:59:24,303 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-05-14 17:59:25,360 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /phak
+2017-05-14 17:59:25,382 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "phak.war" (runtime-name : "phak.war")
+2017-05-14 17:59:25,512 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-05-14 17:59:25,512 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-05-14 17:59:25,513 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 4414ms - Started 401 of 651 services (404 services are lazy, passive or on-demand)
+2017-05-14 17:59:26,486 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/d6/3272d4ccd4e90a9613e45eff8602da7708d145/content
+2017-05-14 17:59:26,513 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0022: Unregistered web context: /phak
+2017-05-14 17:59:26,527 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment phak.war (runtime-name: phak.war) in 25ms
+2017-05-14 17:59:26,529 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "phak.war" (runtime-name: "phak.war")
+2017-05-14 17:59:26,621 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 27) WFLYUT0021: Registered web context: /phak
+2017-05-14 17:59:26,681 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "phak.war" with deployment "phak.war"
+2017-05-14 17:59:26,685 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/87/f6775515c7c7df485cc746f8ffaa3e312827a8/content
+2017-05-14 17:59:50,233 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0236: Suspending server with no timeout.
+2017-05-14 17:59:50,237 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2017-05-14 17:59:50,284 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0022: Unregistered web context: /phak
+2017-05-14 17:59:50,326 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-05-14 17:59:50,328 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-05-14 17:59:50,334 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-05-14 17:59:50,339 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment phak.war (runtime-name: phak.war) in 84ms
+2017-05-14 17:59:50,339 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2017-05-14 17:59:50,340 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-05-14 17:59:50,340 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-05-14 17:59:50,340 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-05-14 17:59:50,342 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-05-14 17:59:50,375 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 117ms
+2017-05-14 18:00:01,694 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-05-14 18:00:01,890 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-05-14 18:00:01,966 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-05-14 18:00:01,967 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final
+	jboss.host.name = chainapaporn
+	jboss.modules.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/modules
+	jboss.node.name = chainapaporn
+	jboss.qualified.host.name = chainapaporn
+	jboss.server.base.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = chainapaporn
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.0-49-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone -Djboss.server.log.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log -Djboss.server.config.dir=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/phakphoom/My-workspace/jboss-maven/phak
+	user.home = /home/phakphoom
+	user.language = en
+	user.name = phakphoom
+	user.timezone = Asia/Bangkok
+2017-05-14 18:00:01,967 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Dorg.jboss.boot.log.file=/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-05-14 18:00:03,157 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-05-14 18:00:03,175 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.4.0.Final
+2017-05-14 18:00:03,182 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.4.0.Final
+2017-05-14 18:00:03,247 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2017-05-14 18:00:03,272 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-05-14 18:00:03,286 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-05-14 18:00:03,290 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-05-14 18:00:03,300 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-05-14 18:00:03,328 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-05-14 18:00:03,332 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-05-14 18:00:03,336 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-05-14 18:00:03,346 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-05-14 18:00:03,362 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-05-14 18:00:03,368 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2017-05-14 18:00:03,372 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-05-14 18:00:03,381 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-05-14 18:00:03,548 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-05-14 18:00:03,555 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-05-14 18:00:03,628 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-05-14 18:00:03,647 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2017-05-14 18:00:03,670 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2017-05-14 18:00:03,792 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-05-14 18:00:03,792 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-05-14 18:00:03,833 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-05-14 18:00:04,016 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-05-14 18:00:04,157 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-05-14 18:00:04,204 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/deployments
+2017-05-14 18:00:04,233 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "phak.war" (runtime-name: "phak.war")
+2017-05-14 18:00:04,302 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-05-14 18:00:04,343 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 18:00:04,344 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 18:00:04,344 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 18:00:04,345 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 18:00:04,350 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 18:00:04,352 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-05-14 18:00:04,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-05-14 18:00:04,642 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-05-14 18:00:05,369 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /phak
+2017-05-14 18:00:05,398 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "phak.war" (runtime-name : "phak.war")
+2017-05-14 18:00:05,517 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-05-14 18:00:05,517 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-05-14 18:00:05,517 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 4125ms - Started 401 of 651 services (404 services are lazy, passive or on-demand)
+2017-05-14 18:00:06,451 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/93/a8ce5334ee99638220b34fed69df852a4cec4f/content
+2017-05-14 18:00:06,463 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0022: Unregistered web context: /phak
+2017-05-14 18:00:06,478 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment phak.war (runtime-name: phak.war) in 19ms
+2017-05-14 18:00:06,482 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "phak.war" (runtime-name: "phak.war")
+2017-05-14 18:00:06,581 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0021: Registered web context: /phak
+2017-05-14 18:00:06,628 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "phak.war" with deployment "phak.war"
+2017-05-14 18:00:06,629 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/phakphoom/My-workspace/jboss-maven/phak/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/d6/3272d4ccd4e90a9613e45eff8602da7708d145/content
